@@ -27,3 +27,29 @@ postgreSql
 redis para caches
 npm
 `
+
+
+### configurar el archivo de .env.example
+
+`
+https://kool.dev/docs/presets/laravel
+`
+
+
+### correr comando bash de git
+
+`
+kool run setup
+`
+
+
+### error del puerto 80 con docker ejecutar
+
+
+`
+NET stop HTTP
+`
+
+---
+### ejecutar  `kool run setup` hasta que diga wbpack compiles sucesfully
+
