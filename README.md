@@ -79,3 +79,14 @@ kool run artisan make:controller API/TodoController --api
 `
 kool run artisan route:list
 `
+
+
+### request tipo post -- insonmia para las peticiones
+
+`
+http://localhost/api/todos
+
+{   "title":"instalar wsl",
+    "completed":false
+}
+`

@@ -5,6 +5,10 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+// importar el modelo
+
+use App\models\Todo;
+
 class TodoController extends Controller
 {
     /**
@@ -25,7 +29,8 @@ class TodoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $todo=Todo::create($request->all());
+        return response()->json($todo,200);
     }
 
     /**
