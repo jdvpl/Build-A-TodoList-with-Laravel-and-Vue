@@ -65,3 +65,17 @@ kool run artisan make:model Todo --migration
 `
 kool run artisan migrate
 `
+
+
+### creando controllers
+
+`
+kool run artisan make:controller API/TodoController --api
+`
+
+
+### comprobar si podemos acceder a las rutas
+
+`
+kool run artisan route:list
+`
