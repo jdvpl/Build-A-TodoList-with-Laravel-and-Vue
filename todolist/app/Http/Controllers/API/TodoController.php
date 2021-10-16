@@ -68,6 +68,8 @@ class TodoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $todo=Todo::findOrFail($id);
+        $todo->delete();
+        return response()->json("se borro correctamente el id $id");
     }
 }

@@ -112,3 +112,10 @@ http://localhost/api/todos/1
   "completed": true
 }
 `
+
+### borrar tipo `DELETE`
+
+`
+http://localhost/api/todos/5
+`
+
