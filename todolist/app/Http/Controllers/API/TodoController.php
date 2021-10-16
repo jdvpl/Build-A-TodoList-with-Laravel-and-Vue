@@ -55,7 +55,9 @@ class TodoController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $todo=Todo::findOrFail($id);
+        $todo->update($request->all());
+        return response()->json($todo,200);
     }
 
     /**

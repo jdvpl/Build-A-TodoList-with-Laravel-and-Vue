@@ -81,12 +81,34 @@ kool run artisan route:list
 `
 
 
-### request tipo post -- insonmia para las peticiones
+### request tipo post -- insonmia para las peticiones crear `POST`
 
 `
 http://localhost/api/todos
 
 {   "title":"instalar wsl",
     "completed":false
+}
+`
+
+### obtener todos tipo `GET`
+
+`
+http://localhost/api/todos
+
+solo uno
+
+http://localhost/api/todos/1
+`
+
+
+### actualizar tipo `PUT`
+
+`
+http://localhost/api/todos/1
+{
+  "id": 1,
+  "title": "descargar y configurar docker desktop",
+  "completed": true
 }
 `
