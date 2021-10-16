@@ -119,3 +119,59 @@ http://localhost/api/todos/1
 http://localhost/api/todos/5
 `
 
+### instalar vue globalmente
+
+`
+npm i -g @vue/cli
+`
+
+### se separon el frontend en la carpeta frontend-vue para crear el frontend con vue
+
+`
+vue create vue-todos
+
+`
+
+---
+
+#### seleccion de versiones 
+
+--
+
+manually select features
+
+---
+con espaciadora se seleccionan y enter para confirmar
+
+babel,typeScript
+
+
+---
+
+version 3x
+
+---
+y
+
+---
+
+y
+
+---
+
+in dedicated config files
+
+---
+
+N
+
+---
+
+npm
+
+
+### para correr el proyecto
+
+`
+npm run serve
+`
