@@ -53,3 +53,15 @@ NET stop HTTP
 ---
 ### ejecutar  `kool run setup` hasta que diga wbpack compiles sucesfully
 
+
+### crear modelos y migraciones 
+
+`
+kool run artisan make:model Todo --migration
+`
+
+### despues de haber creado el modelo se migra hacia la base de datos
+
+`
+kool run artisan migrate
+`
